@@ -1,0 +1,25 @@
+.tooltip {
+	color: blue;
+}
+.tooltip:hover {
+	cursor: pointer;
+}
+#tooltip {
+	font-family: 'Rosario', sans-serif;
+	font-size: 14px;
+	position: fixed;
+	width: 175px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	text-align: justify;
+	/* ROUNDED CORNERS */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* SHADOW */
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
